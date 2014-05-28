@@ -130,7 +130,7 @@ var jqyoui = angular.module('ngDragDrop', []).service('ngDragDropService', ['$ti
         return false;
       }
 
-      var zIndex = 9999,
+      var zIndex = 999,
         fromPos = $fromEl[dropSettings.containment || 'offset'](),
         wasVisible = $toEl && $toEl.is(':visible'),
         hadNgHideCls = $toEl.hasClass('ng-hide');
